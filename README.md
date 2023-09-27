@@ -8,6 +8,7 @@ In ROS 1, roscore serves as the central node providing naming, registration, and
 Nevertheless, in this scenario, as soon as we detect that roscore has ceased to function, we immediately stop publishing/subscribing. Of course, with simple modifications, you can configure the publisher/subscriber not to halt immediately when roscore goes down but to maintain established connections, reinitiating all services only when roscore restarts.
 
 ## Usage
+- make sure you have ros installed already.
 ```bash
 git clone https://github.com/sshawn9/minimal_ros_phoenix_demo.git
 cd minimal_ros_phoenix_demo
