@@ -23,5 +23,5 @@ make
 # to run the minimal subscriber demo
 ./ros_phoenix_sub_demo
 
-# Feel free to toggle roscore on or off, to what will happens.
+# Feel free to toggle roscore on or off, to see what will happens.
 ```
