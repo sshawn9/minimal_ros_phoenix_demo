@@ -26,6 +26,7 @@ int main(int argc, char **argv) {
 
     auto callback = [&](const std_msgs::StringConstPtr &msg) {
         if (not phoenix_check_pass) {
+            //// comment the line below to maintain subscriptions after roscore stops.
             return;
         }
         ROS_INFO_STREAM("Phoenix sub: " << msg->data);

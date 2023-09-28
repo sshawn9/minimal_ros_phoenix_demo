@@ -27,6 +27,7 @@ int main(int argc, char **argv) {
 
     auto publish = [&]() {
         if (not phoenix_check_pass) {
+            //// comment the line below to keep publishing after roscore stops.
             return;
         }
         static std_msgs::String msg;
